@@ -1,6 +1,7 @@
 #define _BSD_SOURCE
 
 #include "learnuv.h"
+#include "../deps/libuv/include/uv.h"
 #include <ncurses.h>
 #include <stdlib.h>
 #include <unistd.h>

@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="learnuv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/robbin/code/learnuv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/robbin/code/learnuv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/robbin/code/learnuv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learnuv">
+				<Option output="/Users/robbin/code/learnuv/cmake-build-debug/learnuv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robbin/code/learnuv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 learnuv"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learnuv/fast">
+				<Option output="/Users/robbin/code/learnuv/cmake-build-debug/learnuv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robbin/code/learnuv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 learnuv/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/robbin/code/learnuv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/data/win/large-pdb-shim.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/actions-multiple/src/foo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/actions-multiple/src/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/actions-none/src/foo.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/actions/generated-header/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/actions/src/subdir1/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/additional-targets/src/dir1/lib1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/arflags/lib.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/assembly/src/lib1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/assembly/src/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/build-option/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/func1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/func2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/func3.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/func4.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/func5.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/prog1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/subdir2/prog2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/subdir2/subdir3/prog3.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/subdir2/subdir3/subdir4/prog4.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/builddir/src/subdir2/subdir3/subdir4/subdir5/prog5.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/cflags/cflags.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/compilable/src/lib1.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/compilable/src/lib1.hpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/compilable/src/program.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/compiler-override/cxxtest.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/compiler-override/test.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/conditions/elseif/program.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/configurations/basics/configurations.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/configurations/inheritance/configurations.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/configurations/target_platform/front.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/configurations/target_platform/left.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/configurations/target_platform/right.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/configurations/x64/configurations.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/copies/src/foo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/cxxflags/cxxflags.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/defines-escaping/defines-escaping.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/defines/defines.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/a.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/b/b.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/b/b3.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/c/c.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/c/d.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/module-dep/a.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/module-dep/dll.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/module-dep/exe.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/sharedlib-linksettings/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/sharedlib-linksettings/sharedlib.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependencies/sharedlib-linksettings/staticlib.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependency-copy/src/file1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/dependency-copy/src/file2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/determinism/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/determinism/solib.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/exclusion/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/external-cross-compile/src/bogus1.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/external-cross-compile/src/bogus2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/external-cross-compile/src/program.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/external-cross-compile/src/test1.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/external-cross-compile/src/test2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/external-cross-compile/src/test3.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/external-cross-compile/src/test4.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/actions/subdir1/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/mac-bundle/header.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/mac-bundle/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/rules/subdir1/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/inc.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/inc1/include1.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/prog1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/subdir2/deeper/deeper.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/subdir2/deeper/deeper.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/subdir2/inc2/include2.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/subdir2/prog2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/subdir3/inc3/include3.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/generator-output/src/subdir3/prog3.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hard_dependency/src/a.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hard_dependency/src/a.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hard_dependency/src/b.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hard_dependency/src/b.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hard_dependency/src/c.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hard_dependency/src/c.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hard_dependency/src/d.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hello/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/hello/hello2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/home_dot_gyp/src/printfoo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/inc.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/inc1/include1.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/includes.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/shadow1/shadow.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/shadow2/shadow.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/subdir/inc.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/subdir/inc2/include2.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/include_dirs/src/subdir/subdir_includes.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/app-bundle/tool_main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/copies-with-xcode-envvars/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/deployment-target/check-version-min.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/extension/ActionExtension/ActionViewController.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/extension/ExtensionContainer/AppDelegate.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/extension/ExtensionContainer/ViewController.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/framework/iOSFramework/Thing.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/framework/iOSFramework/iOSFramework.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/watch/WatchContainer/AppDelegate.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/watch/WatchContainer/ViewController.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/watch/WatchKitExtension/InterfaceController.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/xctests/App/AppDelegate.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ios/xctests/App/ViewController.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library/src/lib1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library/src/lib1_moveable.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library/src/lib2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library/src/lib2_moveable.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library/src/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library_dirs/subdir/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library_dirs/subdir/mylib.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/library_dirs/subdir/mylib.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/link-dependency/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/link-dependency/mymalloc.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/link-objects/base.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/link-objects/extra.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/linux/implicit-rpath/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/linux/implicit-rpath/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/linux/ldflags-duplicates/lib1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/linux/ldflags-duplicates/lib2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/linux/ldflags-duplicates/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/linux/target-rpath/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/linux/target-rpath/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/app-bundle/TestApp/TestAppAppDelegate.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/app-bundle/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/empty_main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/file_a.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/file_a.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/file_b.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/file_b.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/file_c.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/file_d.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/header.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/my_file.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/archs/my_main_file.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/cflags/ccfile.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/cflags/ccfile_withcflags.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/cflags/cfile.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/cflags/cppfile.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/cflags/cppfile_withcflags.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/cflags/cxxfile.cxx">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/cflags/cxxfile_withcflags.cxx">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/clang-cxx-language-standard/c++11.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/clang-cxx-language-standard/c++98.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/clang-cxx-library/libc++.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/clang-cxx-library/libstdc++.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/copies-with-xcode-envvars/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/copy-dylib/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/debuginfo/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/depend-on-bundle/bundle.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/depend-on-bundle/executable.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/deployment-target/check-version-min.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/framework-dirs/calculate.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/framework-headers/myframework.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/framework/TestFramework/ObjCVector.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/framework/TestFramework/ObjCVectorInternal.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/framework/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/identical-name/proxy/proxy.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/identical-name/proxy/testlib/testlib.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/identical-name/testlib/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/identical-name/testlib/void.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/infoplist-process/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/installname/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/installname/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/kext/GypKext/GypKext.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/ldflags-libtool/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/ldflags/subdirectory/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/libraries/subdir/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/libraries/subdir/mylib.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/libtool-zero/mylib.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/loadable-module-bundle-product-extension/src.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/loadable-module/module.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/lto/ccfile.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/lto/cfile.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/missing-cfbundlesignature/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/non-strs-flattened-to-env/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/objc-arc/c-file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/objc-arc/cc-file.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/objc-gc/c-file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/objc-gc/cc-file.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuild-copy-bundle/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuild-copy-bundle/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuild-defaults/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuild-fail/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuild-multiple-configurations/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuild-static-library/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuilds/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuilds/file_g.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/postbuilds/file_h.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/prefixheader/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/prefixheader/file.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/prefixheader/header.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/rebuild/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/rebuild/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/rpath/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/rpath/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/sdkroot/file.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/sourceless-module/empty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/sourceless-module/fun.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/strip/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/strip/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/strip/subdirectory/nested_file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/type_envvars/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/unicode-settings/file.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcode-env-order/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcode-gcc/aliasing.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcode-gcc/valid_c.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcode-gcc/valid_cc.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcode-gcc/warn_about_invalid_offsetof_macro.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcode-gcc/warn_about_missing_newline.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcode-support-actions/source.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xctest/MyClass.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/mac/xcuitest/MyAppDelegate.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/make/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/make/main.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/make/noload/lib/shared.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/make/noload/lib/shared.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/make/noload/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/make_global_settings/full-toolchain/bar.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/make_global_settings/full-toolchain/foo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/module/src/lib1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/module/src/lib2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/module/src/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/buildevents/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/config_attrs/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/external_builder/hello.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/list_excluded/hello.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/list_excluded/hello_mac.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/props/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/shared_output/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/shared_output/there/there.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/uldi2010/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/msvs/uldi2010/hello2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/multiple-targets/src/common.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/multiple-targets/src/prog1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/multiple-targets/src/prog2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/action_dependencies/src/a.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/action_dependencies/src/a.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/action_dependencies/src/b.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/action_dependencies/src/b.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/action_dependencies/src/c.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/action_dependencies/src/c.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/chained-dependency/chained.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/normalize-paths-win/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/solibs_avoid_relinking/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/solibs_avoid_relinking/solib.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/ninja/use-custom-environment-files/use-custom-environment-files.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/no-cpp/src/call-f-main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/no-cpp/src/empty-main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/no-cpp/src/f.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/product/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/prune_targets/lib1.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/prune_targets/lib2.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/prune_targets/lib3.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/prune_targets/lib_indirect.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/prune_targets/program.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/relative/foo/a/a.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/relative/foo/a/c/c.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/relative/foo/b/b.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rename/filecase/file.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-dirname/src/subdir/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-rebuild/src/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-use-built-dependencies/src/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-variables/src/input_ext.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-variables/src/input_name/test.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-variables/src/input_path/subdir/test.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-variables/src/subdir/input_dirname.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-variables/src/subdir/test.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules-variables/src/test.input_root.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules/src/subdir1/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules/src/subdir2/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules/src/subdir3/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/rules/src/subdir4/program.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-gyp-name/src/subdir1/main1.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-gyp-name/src/subdir2/main2.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-source-file-name/src/func.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-source-file-name/src/prog1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-source-file-name/src/prog2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-source-file-name/src/prog3.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-source-file-name/src/subdir1/func.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/same-source-file-name/src/subdir2/func.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/sanitize-rule-names/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/sibling/src/prog1/prog1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/sibling/src/prog2/prog2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/standalone-static-library/mylib.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/standalone-static-library/prog.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/subdirectory/src/prog1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/subdirectory/src/subdir/prog2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/subdirectory/src/subdir/subdir2/prog3.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/symlinks/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/target/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/toolsets/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/toolsets/toolsets.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/toolsets/toolsets_shared.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/toplevel-dir/src/sub1/prog1.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/toplevel-dir/src/sub2/prog2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/variables/latelate/src/program.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/variables/variable-in-path/C1/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/asm-files/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/additional-include-dirs.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/additional-options.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/buffer-security.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/calling-convention.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/character-set-mbcs.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/character-set-unicode.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/compile-as-managed.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/compile-as-winrt.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/default-char-is-unsigned.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/disable-specific-warnings.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/enable-enhanced-instruction-set.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/exception-handling-on.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/floating-point-model-fast.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/floating-point-model-precise.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/floating-point-model-strict.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/force-include-files-with-precompiled.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/force-include-files.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/function-level-linking.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/pdbname.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/precomp.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/rtti-on.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/runtime-checks.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/runtime-library-md.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/runtime-library-mdd.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/runtime-library-mt.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/runtime-library-mtd.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/subdir/header.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/treat-wchar-t-as-built-in-type1.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/treat-wchar-t-as-built-in-type2.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/uninit.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/warning-as-error.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/warning-level1.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/warning-level2.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/warning-level3.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/compiler-flags/warning-level4.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/enable-winrt/dllmain.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/generator-output-different-drive/prog.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/idl-excluded/program.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/idl-includedirs/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/idl-rules/history_indexer_user.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/importlib/dll_no_exports.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/importlib/has-exports.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/importlib/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/large-pdb/dllmain.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/large-pdb/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/lib-crosscompile/answer.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/lib-crosscompile/answer.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/lib-flags/answer.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/lib-flags/answer.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/a/x.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/a/z.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/additional-deps.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/b/y.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/deffile.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/delay-load.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/entrypointsymbol.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/inline_test.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/inline_test.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/inline_test_main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/library-adjust.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/library-directories-define.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/library-directories-reference.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/link-warning.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/main-crt.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/manifest-in-comment.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/mapfile.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/no-default-libs.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/nodefaultlib.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/opt-icf.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/opt-ref.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/safeseh_hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/subsystem-windows.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/x.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/y.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/linker-flags/z.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/long-command-line/function.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/long-command-line/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/ml-safeseh/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/precompiled/hello.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/precompiled/hello2.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/precompiled/precomp.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/rc-build/Resource.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/rc-build/hello.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/rc-build/hello.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/rc-build/subdir/include.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/rc-build/targetver.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/shard/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/shard/hello1.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/shard/hello2.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/shard/hello3.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/shard/hello4.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/system-include/bar/header.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/system-include/common/commonheader.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/system-include/foo/header.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/system-include/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/uldi/a.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/uldi/b.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/uldi/dll.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/uldi/exe.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/uldi/main.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/vs-macros/hello.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/win-driver-target-type/win-driver-target-type.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/win-driver-target-type/win-driver-target-type.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/winrt-app-type-revision/dllmain.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/win/winrt-target-platform-version/dllmain.cc">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/xcode-ninja/list_excluded/hello.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/build/gyp/test/xcode-ninja/list_excluded/hello_excluded.cpp">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/android-ifaddrs.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/pthread-fixes.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/stdint-msvc2008.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/tree.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-aix.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-bsd.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-darwin.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-errno.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-linux.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-sunos.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-threadpool.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-unix.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-version.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv-win.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/include/uv.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/client.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/defs.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/getopt.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/main.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/s5.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/s5.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/server.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/samples/socks5-proxy/util.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/fs-poll.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/heap-inl.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/inet.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/queue.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/threadpool.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/aix.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/android-ifaddrs.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/async.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/atomic-ops.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/core.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/darwin-proctitle.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/darwin.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/dl.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/freebsd.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/fs.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/fsevents.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/getaddrinfo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/getnameinfo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/internal.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/kqueue.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/linux-core.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/linux-inotify.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/linux-syscalls.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/linux-syscalls.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/loop-watcher.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/loop.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/netbsd.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/openbsd.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/pipe.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/poll.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/process.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/proctitle.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/pthread-fixes.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/signal.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/spinlock.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/stream.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/sunos.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/tcp.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/thread.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/timer.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/tty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/unix/udp.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/uv-common.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/uv-common.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/version.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/async.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/atomicops-inl.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/core.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/dl.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/fs-event.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/fs.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/getaddrinfo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/getnameinfo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/handle-inl.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/handle.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/internal.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/loop-watcher.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/pipe.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/poll.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/process-stdio.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/process.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/req-inl.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/req.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/signal.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/stream-inl.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/stream.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/tcp.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/thread.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/timer.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/tty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/udp.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/util.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/winapi.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/winapi.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/winsock.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/src/win/winsock.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-async-pummel.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-async.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-fs-stat.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-getaddrinfo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-list.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-loop-count.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-million-async.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-million-timers.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-multi-accept.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-ping-pongs.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-pound.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-pump.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-sizes.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-spawn.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-tcp-write-batch.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-thread.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/benchmark-udp-pummel.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/blackhole-server.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/dns-server.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/echo-server.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/run-benchmarks.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/run-tests.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/runner-unix.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/runner-unix.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/runner-win.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/runner-win.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/runner.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/runner.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/task.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-active.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-async-null-cb.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-async.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-barrier.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-callback-order.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-callback-stack.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-close-fd.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-close-order.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-condvar.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-connection-fail.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-cwd-and-chdir.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-default-loop-close.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-delayed-accept.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-dlerror.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-embed.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-emfile.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-fail-always.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-fs-event.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-fs-poll.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-fs.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-get-currentexe.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-get-loadavg.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-get-memory.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-getaddrinfo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-getnameinfo.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-getsockname.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-handle-fileno.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-homedir.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-hrtime.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-idle.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-ip4-addr.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-ip6-addr.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-ipc-send-recv.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-ipc.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-list.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-loop-alive.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-loop-close.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-loop-configure.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-loop-handles.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-loop-stop.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-loop-time.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-multiple-listen.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-mutexes.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-osx-select.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pass-always.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-ping-pong.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-bind-error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-close-stdout-read-stdin.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-connect-error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-connect-multiple.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-connect-prepare.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-getsockname.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-pending-instances.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-sendmsg.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-server-close.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-pipe-set-non-blocking.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-platform-output.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-poll-close-doesnt-corrupt-stack.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-poll-close.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-poll-closesocket.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-poll.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-process-title.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-ref.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-run-nowait.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-run-once.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-semaphore.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-shutdown-close.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-shutdown-eof.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-shutdown-twice.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-signal-multiple-loops.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-signal.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-socket-buffer-size.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-spawn.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-stdio-over-pipes.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-bind-error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-bind6-error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-close-accept.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-close-while-connecting.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-close.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-connect-error-after-write.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-connect-error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-connect-timeout.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-connect6-error.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-create-socket-early.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-flags.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-oob.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-open.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-read-stop.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-shutdown-after-write.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-try-write.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-unexpected-read.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-write-after-connect.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-write-fail.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-write-queue-order.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-write-to-half-open-connection.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tcp-writealot.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-thread-equal.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-thread.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-threadpool-cancel.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-threadpool.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-timer-again.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-timer-from-check.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-timer.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-tty.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-bind.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-create-socket-early.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-dgram-too-big.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-ipv6.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-multicast-interface.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-multicast-interface6.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-multicast-join.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-multicast-join6.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-multicast-ttl.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-open.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-options.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-send-and-recv.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-send-immediate.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-send-unreachable.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-udp-try-send.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-walk-handles.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/libuv/test/test-watcher-cross-stop.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/log/log.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/log/loglevel_sample.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/deps/log/sample.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/01_system_info/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/02_idle/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/03_fs_readsync/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/04_fs_readasync/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/05_fs_readasync_context/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/06_fs_allasync/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/07_tcp_echo_server/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/exercises/08_horse_race/solution.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/01_system_info.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/02_idle.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/03_fs_readsync.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/04_fs_readasync.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/05_fs_readasync_context.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/06_fs_allasync.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/07_tcp_echo_server.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/08_horse_race.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/interactive_horse_race/interactive_horse_race.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/interactive_horse_race/interactive_horse_race.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/interactive_horse_race/questions.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/interactive_horse_race/tcp_server.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/interactive_horse_race/track.c">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/src/learnuv.h">
+			<Option target="learnuv"/>
+		</Unit>
+		<Unit filename="/Users/robbin/code/learnuv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

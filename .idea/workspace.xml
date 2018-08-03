@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="learnuv" targetName="learnuv" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6777366-b916-47cb-8fd3-8d53ae16bb6b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/04_fs_readasync/expected.txt" afterPath="$PROJECT_DIR$/exercises/04_fs_readasync/expected.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/01_system_info.c" afterPath="$PROJECT_DIR$/src/01_system_info.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/02_idle.c" afterPath="$PROJECT_DIR$/src/02_idle.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/03_fs_readsync.c" afterPath="$PROJECT_DIR$/src/03_fs_readsync.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/04_fs_readasync.c" afterPath="$PROJECT_DIR$/src/04_fs_readasync.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/05_fs_readasync_context.c" afterPath="$PROJECT_DIR$/src/05_fs_readasync_context.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/06_fs_allasync.c" afterPath="$PROJECT_DIR$/src/06_fs_allasync.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/07_tcp_echo_server.c" afterPath="$PROJECT_DIR$/src/07_tcp_echo_server.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/08_horse_race.c" afterPath="$PROJECT_DIR$/src/08_horse_race.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/learnuv.h" afterPath="$PROJECT_DIR$/src/learnuv.h" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="04_fs_readasync.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/04_fs_readasync.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05_fs_readasync_context.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/05_fs_readasync_context.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_fs_allasync.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/06_fs_allasync.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="async.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/async.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kqueue.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/kqueue.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2118">
+              <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threadpool.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deps/libuv/src/threadpool.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="146" column="10" lean-forward="false" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
+              <folding>
+                <element signature="e#1201#1228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fs.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/fs.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="1198" column="23" lean-forward="false" selection-start-line="1198" selection-start-column="23" selection-end-line="1198" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uv.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deps/libuv/include/uv.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="1129" column="16" lean-forward="false" selection-start-line="1129" selection-start-column="16" selection-end-line="1129" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uv-unix.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deps/libuv/include/uv-unix.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="342" column="2" lean-forward="true" selection-start-line="342" selection-start-column="2" selection-end-line="342" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ver</find>
+      <find>uv_idle_start</find>
+      <find>pInitializeConditionVariable</find>
+      <find>cond</find>
+      <find>uv__io_poll</find>
+      <find>read(</find>
+      <find>cond_signal</find>
+      <find>uv__fs_read</find>
+      <find>readv</find>
+      <find>uv__fs_work</find>
+      <find>pthread_cond_signal</find>
+      <find>uv__work_submit</find>
+      <find>write_report</find>
+      <find>iov</find>
+      <find>read</find>
+      <find>uv_fs_read</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/deps/libuv/src</dir>
+      <dir>$PROJECT_DIR$/deps/libuv/src/unix</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/deps/libuv/src/uv-common.c" />
+        <option value="$PROJECT_DIR$/src/learnuv.h" />
+        <option value="$PROJECT_DIR$/src/02_idle.c" />
+        <option value="$PROJECT_DIR$/src/01_system_info.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/ChangeLog" />
+        <option value="$PROJECT_DIR$/src/07_tcp_echo_server.c" />
+        <option value="$PROJECT_DIR$/src/08_horse_race.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/win/fs.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/win/thread.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/win/core.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/unix/aix.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/unix/kqueue.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/unix/core.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/unix/async.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/unix/thread.c" />
+        <option value="$PROJECT_DIR$/src/06_fs_allasync.c" />
+        <option value="$PROJECT_DIR$/src/05_fs_readasync_context.c" />
+        <option value="$PROJECT_DIR$/magic/file.txt" />
+        <option value="$PROJECT_DIR$/exercises/04_fs_readasync/expected.txt" />
+        <option value="$PROJECT_DIR$/src/03_fs_readsync.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/threadpool.c" />
+        <option value="$PROJECT_DIR$/deps/libuv/include/uv-unix.h" />
+        <option value="$PROJECT_DIR$/deps/libuv/src/unix/fs.c" />
+        <option value="$PROJECT_DIR$/src/04_fs_readasync.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1916" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="deps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="deps" type="462c0819:PsiDirectoryNode" />
+              <item name="libuv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="04_fs_readasync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="magic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnuv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="learnuv" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="Debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.learnuv">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learnuv" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learnuv" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learnuv" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learnuv" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learnuv" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learnuv" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration name="learnuv" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learnuv" TARGET_NAME="learnuv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learnuv" RUN_TARGET_NAME="learnuv">
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.learnuv" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6777366-b916-47cb-8fd3-8d53ae16bb6b" name="Default" comment="" />
+      <created>1500099966209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500099966209</updated>
+      <workItem from="1500099968194" duration="4400000" />
+      <workItem from="1500541278237" duration="611000" />
+      <workItem from="1500885642033" duration="26000" />
+      <workItem from="1501507163607" duration="141000" />
+      <workItem from="1501508215531" duration="13445000" />
+      <workItem from="1501637565597" duration="4452000" />
+      <workItem from="1501753907061" duration="16861000" />
+      <workItem from="1502179546786" duration="8625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48561000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35714287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6839917" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37553647" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/deps/libuv/src/unix/kqueue.c</url>
+          <line>344</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/deps/libuv/src/unix/fs.c</url>
+          <line>993</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/deps/libuv/src/unix/fs.c</url>
+          <line>1185</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/deps/libuv/src/unix/fs.c</url>
+          <line>116</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/deps/libuv/src/unix/fs.c</url>
+          <line>930</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/exercises/02_idle/exercise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/02_idle/solution.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/learnuv.cbp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/07_tcp_echo_server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.syntastic_c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="514" column="34" lean-forward="false" selection-start-line="514" selection-start-column="34" selection-end-line="514" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/sys/_pthread/_pthread_cond_t.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/pthread.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="298" column="4" lean-forward="false" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/win/thread.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="218" column="5" lean-forward="false" selection-start-line="218" selection-start-column="5" selection-end-line="218" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/android-ifaddrs.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1640">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/aix.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="126" column="16" lean-forward="false" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/posix-poll.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="137" column="24" lean-forward="true" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/linux-core.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="187" column="5" lean-forward="false" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/darwin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/uv-common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/sys/uio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/sys/errno.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/atomic-ops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="31" column="64" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/thread.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="591" column="38" lean-forward="false" selection-start-line="591" selection-start-column="38" selection-end-line="591" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/log/log.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/win/core.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="483" column="4" lean-forward="false" selection-start-line="483" selection-start-column="4" selection-end-line="483" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/core.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="341" column="33" lean-forward="false" selection-start-line="341" selection-start-column="33" selection-end-line="341" selection-end-column="33" />
+          <folding>
+            <element signature="e#17871#17902#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/sys/cdefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="569" column="8" lean-forward="false" selection-start-line="569" selection-start-column="8" selection-end-line="569" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnuv.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="69" column="25" lean-forward="false" selection-start-line="65" selection-start-column="2" selection-end-line="69" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/ChangeLog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnuv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/uv-common.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="143" column="13" lean-forward="false" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/secure/_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/unistd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="479" column="33" lean-forward="false" selection-start-line="479" selection-start-column="33" selection-end-line="479" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/05_fs_readasync_context.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/async.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/kqueue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2118">
+          <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/04_fs_readasync/problem.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/04_fs_readasync/exercise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/04_fs_readasync/solution.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/06_fs_allasync.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/03_fs_readsync.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/win/fs.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1967" column="14" lean-forward="false" selection-start-line="1967" selection-start-column="4" selection-end-line="1967" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/threadpool.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="146" column="10" lean-forward="false" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
+          <folding>
+            <element signature="e#1201#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/04_fs_readasync/expected.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/sys/_types/_size_t.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/include/uv.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="1129" column="16" lean-forward="false" selection-start-line="1129" selection-start-column="16" selection-end-line="1129" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/include/uv-unix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="342" column="2" lean-forward="true" selection-start-line="342" selection-start-column="2" selection-end-line="342" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/libuv/src/unix/fs.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="1198" column="23" lean-forward="false" selection-start-line="1198" selection-start-column="23" selection-end-line="1198" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/04_fs_readasync.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

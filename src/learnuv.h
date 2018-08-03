@@ -10,6 +10,7 @@
 #include "log.h"
 #include "uv.h"
 #include "task.h" /* MAKE_VALGRIND_HAPPY */
+#include "../deps/log/log.h"
 
 #include <libgen.h>
 #include <unistd.h>

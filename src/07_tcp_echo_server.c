@@ -1,5 +1,7 @@
 #include "learnuv.h"
 #include <math.h>
+#include "../deps/libuv/include/uv.h"
+#include "../deps/libuv/test/task.h"
 
 const static char* HOST    = "0.0.0.0"; /* localhost */
 const static int   PORT    = 7000;

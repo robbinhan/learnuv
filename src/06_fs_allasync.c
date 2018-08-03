@@ -1,6 +1,7 @@
 #include "learnuv.h"
+#include "../deps/libuv/include/uv.h"
 
-#define BUF_SIZE 37
+#define BUF_SIZE 100
 static const char *filename = __MAGIC_FILE__;
 
 /* forward declarations */
@@ -21,13 +22,16 @@ void open_cb(uv_fs_t* open_req) {
   context_t* context = open_req->data;
 
   /* 3. Create buffer and initialize it */
+  char buf[BUF_SIZE + 1];
+  uv_buf_t iov = uv_buf_init(buf, sizeof(buf));
 
   /* 4. Setup read request */
-  uv_fs_t *read_req = NULL; /* = malloc ... */
-  context->read_req = NULL; /* = ? */
-  read_req->data = NULL;    /* = ? */
+  uv_fs_t *read_req = malloc(sizeof(uv_fs_t)); /* = malloc ... */
+  context->read_req = read_req; /* = ? */
+  read_req->data = context;    /* = ? */
 
   /* 5. Read from the file into the buffer */
+  r = uv_fs_read(open_req->loop, read_req, open_req->result, &iov, iov.len, -1, read_cb);
   if (r < 0) CHECK(r, "uv_fs_read");
 }
 
@@ -35,7 +39,7 @@ void read_cb(uv_fs_t* read_req) {
   int r = 0;;
   if (read_req->result < 0) CHECK(read_req->result, "uv_fs_read callback");
 
-  context_t* context = NULL; /* = ? */
+  context_t* context = read_req->data; /* = ? */
 
   /* 6. Report the contents of the buffer */
   log_report("%s", context->iov.base);
@@ -48,6 +52,7 @@ void read_cb(uv_fs_t* read_req) {
   /* ? */
 
   /* 8. Close the file descriptor */
+  r = uv_fs_close(read_req->loop, close_req, read_req->file, close_cb);
   if (r < 0) CHECK(r, "uv_fs_close");
 }
 
@@ -74,6 +79,7 @@ void init(uv_loop_t *loop) {
   open_req->data = context;
 
   /* 2. Open file */
+  r = uv_fs_open(loop, open_req, filename, O_RDONLY, S_IRUSR, open_cb);
   if (r < 0) CHECK(r, "uv_fs_open");
 }
 
